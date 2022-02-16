@@ -43,4 +43,4 @@ Na parte inicial do trabalho pegamos o arquivos csv do data-set e geramos um arq
 
 Após carregar o data-set no Weka executamos alguns testes de configurações de treinamento do modelo, porém a taxa de erro era muito alta:
 
-<img src=”(https://imgur.com/7Wvzz4F)”>
+![image](https://i.imgur.com/7Wvzz4F.png)
