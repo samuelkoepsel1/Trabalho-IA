@@ -49,12 +49,12 @@ Já que a configuração base do modelo não era muito eficaz, testamos algumas 
 
 === Summary ===
 
-Correlation coefficient                  0.916 
-Mean absolute error                      0.6689
-Root mean squared error                  1.0314
-Relative absolute error                 38.9104 %
-Root relative squared error             49.1427 %
-Total Number of Instances              214    
+Correlation coefficient                  0.916 <br />
+Mean absolute error                      0.6689 <br />
+Root mean squared error                  1.0314 <br />
+Relative absolute error                 38.9104 % <br />
+Root relative squared error             49.1427 % <br />
+Total Number of Instances              214
 
 Pra melhorar a qualidade da previsão a próxima alteração feita foi aumenta o número de épocas do treinamento, testamos algumas configurações que obteram os seguintes resultados:
 
