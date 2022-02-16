@@ -62,33 +62,33 @@ Num. de Épocas: 3000
 
 === Summary ===
 
-Correlation coefficient                  0.9362
-Mean absolute error                      0.6393
-Root mean squared error                  0.9434
-Relative absolute error                 37.1904 %
-Root relative squared error             44.9493 %
+Correlation coefficient                  0.9362 <br />
+Mean absolute error                      0.6393 <br />
+Root mean squared error                  0.9434 <br />
+Relative absolute error                 37.1904 % <br />
+Root relative squared error             44.9493 % <br />
 Total Number of Instances              214       
 
 Num. de Épocas: 5000
 
 === Summary ===
 
-Correlation coefficient                  0.9447
-Mean absolute error                      0.5761
-Root mean squared error                  0.8329
-Relative absolute error                 33.5149 %
-Root relative squared error             39.6853 %
+Correlation coefficient                  0.9447 <br />
+Mean absolute error                      0.5761 <br />
+Root mean squared error                  0.8329 <br />
+Relative absolute error                 33.5149 % <br />
+Root relative squared error             39.6853 % <br />
 Total Number of Instances              214     
 
 Num. de Épocas: 12000
 
 === Summary ===
 
-Correlation coefficient                  0.9517
-Mean absolute error                      0.5448
-Root mean squared error                  0.7541
-Relative absolute error                 31.6908 %
-Root relative squared error             35.9311 %
+Correlation coefficient                  0.9517 <br />
+Mean absolute error                      0.5448 <br />
+Root mean squared error                  0.7541 <br />
+Relative absolute error                 31.6908 % <br />
+Root relative squared error             35.9311 % <br />
 Total Number of Instances              214  
 
 
@@ -98,9 +98,9 @@ Organizando a quantidade de neurônios nas camadas ocultas desta forma: 10, 5, 2
 
 === Summary ===
 
-Correlation coefficient                  0.9928
-Mean absolute error                      0.16  
-Root mean squared error                  0.2525
-Relative absolute error                  9.3071 %
-Root relative squared error             12.0313 %
+Correlation coefficient                  0.9928 <br />
+Mean absolute error                      0.16 <br /> 
+Root mean squared error                  0.2525 <br />
+Relative absolute error                  9.3071 % <br />
+Root relative squared error             12.0313 % <br />
 Total Number of Instances              214   
