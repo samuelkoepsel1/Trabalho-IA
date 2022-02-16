@@ -44,3 +44,63 @@ Na parte inicial do trabalho pegamos o arquivos csv do data-set e geramos um arq
 Após carregar o data-set no Weka executamos alguns testes de configurações de treinamento do modelo, porém a taxa de erro era muito alta:
 
 ![image](https://i.imgur.com/7Wvzz4F.png)
+
+Já que a configuração base do modelo não era muito eficaz, testamos algumas configurações diferentes, alterando o tipo de teste de cross-validation para use training set, percebeu que as taxas de erros diminuiram:
+
+=== Summary ===
+
+Correlation coefficient                  0.916 
+Mean absolute error                      0.6689
+Root mean squared error                  1.0314
+Relative absolute error                 38.9104 %
+Root relative squared error             49.1427 %
+Total Number of Instances              214    
+
+Pra melhorar a qualidade da previsão a próxima alteração feita foi aumenta o número de épocas do treinamento, testamos algumas configurações que obteram os seguintes resultados:
+
+Num. de Épocas: 3000
+
+=== Summary ===
+
+Correlation coefficient                  0.9362
+Mean absolute error                      0.6393
+Root mean squared error                  0.9434
+Relative absolute error                 37.1904 %
+Root relative squared error             44.9493 %
+Total Number of Instances              214       
+
+Num. de Épocas: 5000
+
+=== Summary ===
+
+Correlation coefficient                  0.9447
+Mean absolute error                      0.5761
+Root mean squared error                  0.8329
+Relative absolute error                 33.5149 %
+Root relative squared error             39.6853 %
+Total Number of Instances              214     
+
+Num. de Épocas: 12000
+
+=== Summary ===
+
+Correlation coefficient                  0.9517
+Mean absolute error                      0.5448
+Root mean squared error                  0.7541
+Relative absolute error                 31.6908 %
+Root relative squared error             35.9311 %
+Total Number of Instances              214  
+
+
+Continumaos aumentando o número de treinamentos porém os resultados estavam piorando, então mantivemos o número de épocas de treinamento e buscamos outras configurações que poderiam melhorar o resultado do nosso modelo. Estudando outros modelos que utilizavam a ferramenta do Weka como base percebemos que outra configuração importante para a nossa aplicação de previsão, seria configucar as camadas ocultas corretamente.
+
+Organizando a quantidade de neurônios nas camadas ocultas desta forma: 10, 5, 2, obteve-se o seguinte resultado:
+
+=== Summary ===
+
+Correlation coefficient                  0.9928
+Mean absolute error                      0.16  
+Root mean squared error                  0.2525
+Relative absolute error                  9.3071 %
+Root relative squared error             12.0313 %
+Total Number of Instances              214   
