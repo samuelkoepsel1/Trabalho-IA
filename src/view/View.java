@@ -194,15 +194,15 @@ public class View extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Preencha todos os campos!!");
         }else{
             double[] valores = {0,0,0,0,0,0,0,0,0,0,0,0,0,0};
-            valores[0] = Double.parseDouble(jTextField1.getText());
-            valores[1] = Double.parseDouble(jTextField2.getText());
-            valores[2] = Double.parseDouble(jTextField3.getText());
-            valores[3] = Double.parseDouble(jTextField4.getText());
-            valores[4] = Double.parseDouble(jTextField5.getText());
-            valores[5] = Double.parseDouble(jTextField6.getText());
-            valores[6] = Double.parseDouble(jTextField7.getText());
-            valores[7] = Double.parseDouble(jTextField8.getText());
-            valores[8] = Double.parseDouble(jTextField9.getText());
+            valores[1] = Double.parseDouble(jTextField1.getText());
+            valores[2] = Double.parseDouble(jTextField2.getText());
+            valores[3] = Double.parseDouble(jTextField3.getText());
+            valores[4] = Double.parseDouble(jTextField4.getText());
+            valores[5] = Double.parseDouble(jTextField5.getText());
+            valores[6] = Double.parseDouble(jTextField6.getText());
+            valores[7] = Double.parseDouble(jTextField7.getText());
+            valores[8] = Double.parseDouble(jTextField8.getText());
+            valores[9] = Double.parseDouble(jTextField9.getText());
 
             jLabel11.setText(Long.toString(Controller.train(valores)));
         }

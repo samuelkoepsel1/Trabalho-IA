@@ -26,7 +26,7 @@ public class Controller {
 
         try {
             Instances insClassifier = getInstancesByName("src/storage/Glass.arff");
-            Instances insTest = getInstancesByName("src/storage/GlassTest.arff");
+            Instances insTest = getInstancesByName("src/storage/Glass.arff");
 
             FileInputStream fileInputStream = new FileInputStream("src/storage/MultilayerPercepton.model");
             MultilayerPerceptron mlp = (MultilayerPerceptron) (new ObjectInputStream(fileInputStream)).readObject();
@@ -43,7 +43,7 @@ public class Controller {
             }
 
             double prob[] = mlp.distributionForInstance(denseInstance);
-            System.out.println(Double.valueOf(new DecimalFormat("#").format(prob[0])));
+            System.out.println(prob[0]);
             return Math.round(Double.valueOf(new DecimalFormat("#").format(prob[0])));
 
         } catch (Exception ex) {
