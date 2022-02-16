@@ -112,22 +112,22 @@ Resultados:
 
 === Summary ===
 
-Correlation coefficient                  0.9969
-Mean absolute error                      0.1325
-Root mean squared error                  0.1829
-Relative absolute error                  7.7106 %
-Root relative squared error              8.7143 %
+Correlation coefficient                  0.9969 <br />
+Mean absolute error                      0.1325 <br />
+Root mean squared error                  0.1829 <br />
+Relative absolute error                  7.7106 % <br />
+Root relative squared error              8.7143 % <br />
 Total Number of Instances              214
 
 Após vários testes de configurações diferentes, indetificamos uma configuração que diminuia a taxa de erro para 2%, o que já seria uma taxa mais satisfatória para a nossa aplicação, no entanto para chegar nesse valor era necessário subir o número de épocas para 50 mil, o que tornava a aplicação muito lenta, mas os resultados da configuração foram esses:
 
 === Summary ===
 
-Correlation coefficient                  0.9998
-Mean absolute error                      0.0301
-Root mean squared error                  0.0422
-Relative absolute error                  1.7529 %
-Root relative squared error              2.0117 %
+Correlation coefficient                  0.9998 <br />
+Mean absolute error                      0.0301 <br />
+Root mean squared error                  0.0422 <br />
+Relative absolute error                  1.7529 % <br />
+Root relative squared error              2.0117 % <br />
 Total Number of Instances              214
 
 Analisando os resultados dos nossos modelos então geramos um gráfico para relatar como foram as experiências com o Weka e fundamentar a decisão do modelo que seria implementado em nossa aplicação. Segue o gráfico:
