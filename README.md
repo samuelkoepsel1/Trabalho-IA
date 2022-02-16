@@ -137,3 +137,16 @@ Analisando os resultados dos nossos modelos então geramos um gráfico para rela
 Como falado anteriormente, buscando uma maneira de não tornar a aplicação muito lenta optamos pela seguinte configuração:
 
 ![image](https://i.imgur.com/K9V2e4P.jpg)
+
+O Weka disponibiliza a opção de salvar o modelo de previsão, após gerado esse arquivo, criamos uma aplicação java para executar nosso modelo, foi desenvolvido uma tela simples onde o usuário insere os valores dos componentes químicos do vidro e o índice de refrativo do vidro e a aplicação retorno o tipo de vidro.
+
+![image](https://i.imgur.com/MbWb2Q3.jpg)
+
+Para analisar os campos de entrada foi importada a biblioteca do Weka e utilizado o Multilayer Perceptron que a biblioteca disponibiliza, a aplicação insere o data-set em arquivo .arff e a Model com as configurações que selecionamos, e por último inserimos os valores que o usuário passou e o sistema retorna o tipo do vidro informado.
+
+## [Uso do Sistema](#uso)
+
+Para utilizar o sistema o usuário deve inserir os valores dos componentes químicos e o índice refrativo do vidro em seus respectivos campos e clicar no botão de resultado para obter qual é o tipo do vidro que ele possui.
+
+## [Vídeo](#video)
+
