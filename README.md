@@ -104,3 +104,17 @@ Root mean squared error                  0.2525 <br />
 Relative absolute error                  9.3071 % <br />
 Root relative squared error             12.0313 % <br />
 Total Number of Instances              214   
+
+Após essa alterações foram feitos vários testes e não houve mais grandes melhoras, reorganizando os neurônios das camadas ocultas conseguimos diminuir mais a taxa de erro, mas não foram alcançados os resultados desejados, ela ainda está alta a taxa de erro:
+
+Camadas ocultas: 15, 5, 2
+Resultados:
+
+=== Summary ===
+
+Correlation coefficient                  0.9969
+Mean absolute error                      0.1325
+Root mean squared error                  0.1829
+Relative absolute error                  7.7106 %
+Root relative squared error              8.7143 %
+Total Number of Instances              214
