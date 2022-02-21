@@ -150,4 +150,4 @@ Para utilizar o sistema o usuário deve inserir os valores dos componentes quím
 
 ## [Vídeo](#video)
 
-https://youtu.be/370if_l_nBI
+https://youtu.be/-_meQbRYPXM
